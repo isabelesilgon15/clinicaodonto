@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.firebase.com/js/client/1.0.6/firebase.js"
+    ></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCGOZpyvukpt-qkEHY7SsRupBt8uxBp3Uo",
+        authDomain: "clinicaodonto-78fd0.firebaseapp.com",
+        databaseURL: "https://clinicaodonto-78fd0-default-rtdb.firebaseio.com",
+        projectId: "clinicaodonto-78fd0",
+        storageBucket: "clinicaodonto-78fd0.appspot.com",
+        messagingSenderId: "910573142055",
+        appId: "1:910573142055:web:b28317d3e8e02a12bf4e02",
+        measurementId: "G-D9MJB732NC",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="clinicaodonto2.js"></script>
+  </head>
+
+  <body>
+    <div class="h-full p-8">
+      <h1 class="text-center text-gray-900 text-4xl font-bold mb-10">
+        Clínica Odonto
+      </h1>
+      <div class="w-full max-w-[800px] mx-auto">
+        <a
+          href="./clinicaodonto.html"
+          class="font-medium text-gray-900 text-lg block w-fit mb-10"
+          >Consultar Clientes da Clínica</a
+        >
+        <h2 class="text-center text-gray-900 text-2xl font-bold mb-10">
+          Dentistas
+        </h2>
+        <table
+          class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+          id="tbDentistas"
+        >
+          <thead
+            class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+          >
+            <tr>
+              <th class="py-3 px-6">Cidade</th>
+              <th class="py-3 px-6">Cpf</th>
+              <th class="py-3 px-6">Especialidade</th>
+              <th class="py-3 px-6">Nome</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
