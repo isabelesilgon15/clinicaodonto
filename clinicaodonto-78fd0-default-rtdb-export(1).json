@@ -1,0 +1,138 @@
+{
+  "dentistas": [
+    null,
+    {
+      "cidade": "fortaleza",
+      "cpf": 786574765,
+      "especialidade": "estetica",
+      "nome": "carol"
+    },
+    {
+      "cidade": "madalena",
+      "cpf": 876243,
+      "especialidade": "estetica",
+      "nome": "tainá"
+    },
+    {
+      "cidade": "forttaleza",
+      "cpf": 9876543,
+      "especialidade": "ortodontia",
+      "nome": "lucivania"
+    },
+    {
+      "cidade": "anafue",
+      "cpf": 123456789,
+      "especialidade": "estetica",
+      "nome": "david"
+    },
+    {
+      "cidade": "boa viagem",
+      "cpf": 9876543,
+      "especialidade": "cirurgiã",
+      "nome": "gabriele"
+    },
+    {
+      "cidade": "boa viagem",
+      "cpf": 12345678,
+      "especialidade": "ortodontia",
+      "nome": "daniel"
+    },
+    {
+      "cidade": "fortaleza",
+      "cpf": 854567,
+      "especialidade": "estetica",
+      "nome": "ana"
+    },
+    {
+      "cidade": "itapipoca",
+      "cpf": 76547543,
+      "especialidade": "ortodontia",
+      "nome": "marcelo"
+    },
+    {
+      "cidade": "maracanau",
+      "cpf": 9876543,
+      "especialidade": "clinica",
+      "nome": "gean"
+    },
+    {
+      "cidade": "pedra",
+      "cpf": 86548654,
+      "especialidade": "estetica",
+      "nome": "yara"
+    }
+  ],
+  "pacientes": [
+    null,
+    {
+      "cidade": "fortaleza",
+      "convenio": "plano",
+      "cpf": 2345678,
+      "nome": "isabele",
+      "numero": 9888664
+    },
+    {
+      "cidade": "pedra",
+      "convenio": "particular",
+      "cpf": 4567856,
+      "nome": "ana",
+      "numero": 98888753
+    },
+    {
+      "cidade": "madalena",
+      "convenio": "popular",
+      "cpf": 99988742,
+      "nome": "julio",
+      "numero": 98765432
+    },
+    {
+      "cidade": "caucaia",
+      "convenio": "particular",
+      "cpf": 24356789,
+      "nome ": "fernanda",
+      "numero": 4356789
+    },
+    {
+      "cidade": "fortaleza",
+      "convenio": "popular",
+      "cpf": 2345678,
+      "nome": "italo",
+      "numero": 876756564
+    },
+    {
+      "cidade": "canindé",
+      "convenio": "particular",
+      "cpf": 9876543,
+      "nome": "luisa",
+      "numero": 99888765
+    },
+    {
+      "cidade": "maracanau",
+      "convenio": "popular",
+      "cpf": 987654321,
+      "nome": "lucinda",
+      "numero": 12345678
+    },
+    {
+      "cidade": "tianguá",
+      "convenio": "particular",
+      "cpf": 2766543218,
+      "nome": "manuel",
+      "numero": 98765443
+    },
+    {
+      "cidade": "fortaleza",
+      "convenio": "particular",
+      "cpf": 9867543221,
+      "nome": "valéria",
+      "numero": 45378298
+    },
+    {
+      "cidade": "itapipoca",
+      "convenio": "popular",
+      "cpf": 987432565,
+      "nome": "vitor",
+      "numero": 1234567890
+    }
+  ]
+}
