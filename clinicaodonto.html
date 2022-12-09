@@ -5,13 +5,9 @@
       type="text/javascript"
       src="https://cdn.firebase.com/js/client/1.0.6/firebase.js"
     ></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
     <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
     <script>
-      // Your web app's Firebase configuration
       var firebaseConfig = {
         apiKey: "AIzaSyCGOZpyvukpt-qkEHY7SsRupBt8uxBp3Uo",
         authDomain: "clinicaodonto-78fd0.firebaseapp.com",
@@ -22,7 +18,6 @@
         appId: "1:910573142055:web:b28317d3e8e02a12bf4e02",
         measurementId: "G-D9MJB732NC",
       };
-      // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
     </script>
@@ -30,25 +25,33 @@
     <script src="clinicaodonto.js"></script>
   </head>
   <body>
-    <div class="h-full p-8">
-      <h1 class="text-center text-gray-900 text-4xl font-bold mb-10">
-        Clínica Odonto
-      </h1>
-      <div class="w-full max-w-[800px] mx-auto">
-        <a
-          href="./clinicaodonto2.html"
-          class="font-medium text-gray-900 text-lg block w-fit mb-10"
-          >Consultar Dentistas da Clínica</a
-        >
-        <h2 class="text-center text-gray-900 text-2xl font-bold mb-10">
+    <div class="h-full">
+      <header class="bg-blue-900 mb-10 shadow-lg">
+        <div class="w-full max-w-[1000px] py-8 mx-auto flex items-center justify-between">
+          <h1 class="text-center text-white text-4xl font-bold">
+            Clínica Odonto
+          </h1>
+          
+          <a
+            href="./clinicaodonto2.html"
+            class="font-medium text-base text-white"
+          >
+            Consultar Dentistas
+          </a>
+        </div>
+      </header>
+
+      <div class="w-full max-w-[1000px] mx-auto">
+        <h2 class="text-center text-gray-700 text-4xl font-bold mb-10">
           Clientes
         </h2>
+
         <table
-          class="w-full text-sm text-left text-gray-500 dark:text-gray-400"
+          class="w-full text-sm text-left text-gray-500"
           id="tbPacientes"
         >
           <thead
-            class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+            class="text-xs text-gray-700 uppercase bg-gray-50"
           >
             <tr>
               <th class="py-3 px-6">Cidade</th>
